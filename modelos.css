@@ -1,0 +1,94 @@
+/* --- ESTILOS DA NAVBAR (UNIFICADO) --- */
+.custom-hover-link {
+    transition: all 0.3s ease;
+    font-weight: 500;
+    position: relative;
+    color: rgba(255, 255, 255, 0.85) !important;
+    padding: 8px 15px; /* Espaçamento interno para o clique */
+    display: inline-block;
+}
+
+/* Efeito ao passar o mouse ou tocar (Hover) */
+.custom-hover-link:hover {
+    color: #ffffff !important; /* Fica branco sólido */
+    transform: scale(1.05); /* Pulsa levemente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo leve para destacar o botão */
+    border-radius: 5px;
+}
+
+/* A BARRA BRANCA (Linha decorativa animada embaixo) */
+.custom-hover-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 5px; /* Distância da parte inferior */
+    left: 50%;
+    background-color: #ffffff; /* Cor da linha */
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.custom-hover-link:hover::after {
+    width: 60%; /* A linha expande ao passar o mouse */
+}
+
+/* Ajuste fino na marca (Logo) */
+.navbar-brand {
+    letter-spacing: -0.5px;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    opacity: 0.9;
+}
+
+/* --- PADRONIZAÇÃO DAS IMAGENS DOS CARDS --- */
+.card-img-container {
+    width: 100%;
+    height: 220px; /* Altura fixa para alinhar todos os cards */
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Não deixa a imagem esticar/distorcer */
+    object-position: center;
+    transition: transform 0.5s ease;
+}
+
+/* --- EFEITO NOS CARDS --- */
+.card-modelo {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    border: none;
+    background: #fff;
+}
+
+.card-modelo:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+}
+
+.card-modelo:hover img {
+    transform: scale(1.1); /* Zoom suave na foto ao passar o mouse */
+}
+
+/* Ícone flutuante centralizado (Estilo Moderno) */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: #f0f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -35px auto 15px auto; /* Ajustado para subir sobre a foto */
+    position: relative;
+    z-index: 2;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}

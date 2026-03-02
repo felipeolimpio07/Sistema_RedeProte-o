@@ -1,0 +1,40 @@
+/* Estilo para os links da Navbar */
+.custom-hover-link {
+    transition: all 0.3s ease;
+    font-weight: 500;
+    position: relative;
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Efeito ao passar o mouse ou tocar (Hover) */
+.custom-hover-link:hover {
+    color: #ffffff !important; /* Fica branco sólido */
+    transform: scale(1.05); /* Pulsa levemente */
+}
+
+/* Linha decorativa animada embaixo do link */
+.custom-hover-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 5px;
+    left: 50%;
+    background-color: #ffffff; /* Cor da linha */
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.custom-hover-link:hover::after {
+    width: 60%; /* A linha expande ao passar o mouse */
+}
+
+/* Ajuste fino na marca */
+.navbar-brand {
+    letter-spacing: -0.5px;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    opacity: 0.9;
+}
