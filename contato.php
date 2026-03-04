@@ -69,11 +69,13 @@
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label fw-bold">E-mail</label>
-                            <input type="email" name="email" class="form-control" required placeholder="exemplo@email.com">
+                            <input type="email" name="email" class="form-control" required placeholder="exemplo@gmail.com">
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label fw-bold">Telefone / WhatsApp</label>
-                            <input type="text" name="telefone" id="tel" class="form-control" required placeholder="(41) 99999-9999" onkeyup="mascaraTel(this)">
+                            <input
+                            type="tel" name="telefone" id="tel" class="form-control" required placeholder="(41) 99999-9999" inputmode="numeric"autocomplete="tel" maxlength="15" oninput="mascaraTel(this)">
+
                         </div>
                     </div>
 
@@ -84,9 +86,9 @@
                             id="mensagem"
                             class="form-control" 
                             maxlength="65535"
-                            placeholder="Descreva medidas, quantidades, cores e endereço para visita técnica..."
+                            placeholder="Descreva medidas, quantidades"
                             required></textarea>
-                        <div class="contador" id="contador">0 / 65.535 caracteres</div>
+                        <div class="contador" id="contador"></div>
                     </div>
 
                     <div class="mb-4">
@@ -94,7 +96,7 @@
                             <i class="bi bi-camera me-2"></i>Anexar fotos do local (Opcional)
                         </label>
                         <input type="file" name="foto_cliente[]" class="form-control" accept="image/*" multiple>
-                        <div class="form-text">Selecione várias fotos segurando Ctrl.</div>
+                        <div class="form-text"></div>
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold shadow">
