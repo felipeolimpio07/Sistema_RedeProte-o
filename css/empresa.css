@@ -1,0 +1,42 @@
+/* --- ESTILOS DA PÁGINA: A EMPRESA --- */
+
+/* Container da imagem principal */
+.img-container {
+    border-radius: 20px; /* Bordas arredondadas suaves acompanhando a borda branca */
+    overflow: hidden; /* Garante que a foto não vaze das bordas arredondadas */
+    height: 450px; /* Define uma altura bacana para a imagem não ficar gigante ou espremida */
+    width: 100%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Faz a imagem "flutuar" levemente ao passar o mouse */
+.img-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important; /* Aumenta a sombra */
+}
+
+/* Ajuste fino da foto dentro do container */
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a foto preencher todo o espaço sem amassar ou distorcer */
+    object-position: center; /* Centraliza o foco da foto */
+    transition: transform 0.8s ease; /* Animação mais lenta para a foto */
+}
+
+/* Zoom suave apenas na foto de dentro ao passar o mouse */
+.img-container:hover img {
+    transform: scale(1.08); 
+}
+
+/* --- EFEITO NOS ÍCONES DE CERTIFICAÇÃO --- */
+.bi-patch-check-fill, 
+.bi-shield-lock-fill {
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+/* Faz os ícones darem uma "pulsada" quando o cliente passa o mouse no bloco */
+.d-flex:hover .bi {
+    transform: scale(1.2);
+}

@@ -1,0 +1,39 @@
+/* --- TEMA GLOBAL: AZUL MARINHO PREMIUM --- */
+.bg-primary { background-color: #1E3A8A !important; }
+.text-primary { color: #1E3A8A !important; }
+.btn-primary { background-color: #1E3A8A !important; border-color: #1E3A8A !important; }
+.btn-primary:hover { background-color: #172C69 !important; border-color: #172C69 !important; }
+
+/* --- ESTILOS DA NAVBAR --- */
+.navbar-brand { transition: opacity 0.3s ease; }
+.navbar-brand:hover { opacity: 0.8; }
+
+.custom-hover-link {
+    position: relative !important;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85) !important;
+    transition: color 0.3s ease;
+}
+
+.custom-hover-link:hover,
+.custom-hover-link.active {
+    color: #ffffff !important;
+}
+
+/* O Risco Branco */
+.custom-hover-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.custom-hover-link:hover::after,
+.custom-hover-link.active::after {
+    width: 80%;
+}

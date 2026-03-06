@@ -1,0 +1,34 @@
+/* --- ESTILOS DA PÁGINA: CONTATO --- */
+
+/* Ajustes da caixa de mensagem (Textarea) */
+textarea.form-control {
+    resize: vertical; /* Permite que o usuário aumente a caixa apenas para baixo */
+    min-height: 150px;
+    font-size: 16px;
+}
+
+/* Estilos do contador de caracteres */
+.contador {
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Cores de alerta do contador quando o limite se aproxima */
+.contador.perto { 
+    color: #ffc107; /* Amarelo (Atenção) */
+}
+.contador.limite { 
+    color: #dc3545; /* Vermelho (Limite atingido) */
+}
+
+/* Arredondamento suave para o formulário e avisos de sucesso/erro */
+.card { 
+    border-radius: 15px; 
+}
+.alert { 
+    border-radius: 10px; 
+    border: none; 
+}

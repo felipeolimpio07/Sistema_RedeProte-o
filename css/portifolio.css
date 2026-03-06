@@ -1,0 +1,21 @@
+/* --- ESTILOS DA PÁGINA: PORTFÓLIO --- */
+
+/* Estilos para os cartões do portfólio */
+.card-portfolio {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Efeito ao passar o mouse por cima do cartão */
+.card-portfolio:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+/* Padronização das fotos do portfólio */
+.img-portfolio {
+    height: 250px;
+    width: 100%; /* Garante que ocupe toda a largura do card */
+    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+}

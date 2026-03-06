@@ -1,0 +1,53 @@
+/* --- ESTILOS DA PÁGINA: MODELOS --- */
+
+/* Padronização do tamanho das imagens nos cards */
+.card-img-container {
+    width: 100%;
+    height: 220px; /* Altura fixa para manter todos os cards nivelados */
+    overflow: hidden; /* Corta o excesso da imagem se ela passar do tamanho */
+    border-top-left-radius: 15px; /* Acompanha o arredondamento do card */
+    border-top-right-radius: 15px;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Evita que a imagem fique esticada ou achatada */
+    object-position: center;
+    transition: transform 0.5s ease; /* Animação suave para o zoom */
+}
+
+/* Efeito geral do Card */
+.card-modelo {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    border: none;
+    background: #fff;
+}
+
+/* O que acontece quando o mouse passa por cima do card */
+.card-modelo:hover {
+    transform: translateY(-10px); /* O card flutua para cima */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important; /* Ganha uma sombra destacada */
+}
+
+/* Zoom suave apenas na foto quando passa o mouse no card */
+.card-modelo:hover img {
+    transform: scale(1.1); 
+}
+
+/* Ícone flutuante centralizado (Estilo Moderno) */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: #f0f7ff; /* Fundo azul bem claro */
+    border-radius: 50%; /* Deixa redondo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -35px auto 15px auto; /* A margem negativa (-35px) faz o ícone subir e invadir a foto */
+    position: relative;
+    z-index: 2;
+    border: 4px solid #fff; /* Borda branca grossa para dar contraste com a foto */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}

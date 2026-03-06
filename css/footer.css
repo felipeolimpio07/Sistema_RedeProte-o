@@ -1,0 +1,96 @@
+/* --- ESTILOS DO FOOTER (TEMA AZUL MARINHO - FINO) --- */
+
+.custom-footer {
+    background-color: #1E3A8A; 
+    color: #ffffff; 
+    font-family: sans-serif;
+    margin-top: 50px; 
+}
+
+/* Ajuste da Logo */
+.footer-logo {
+    max-width: 95px; 
+    background-color: #ffffff; 
+    padding: 6px;
+    border-radius: 8px; 
+}
+
+/* Títulos mais colados com o texto */
+.footer-heading {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0.8rem; /* Era 1.2rem, diminuímos o espaço */
+    font-size: 1.05rem;
+}
+
+/* Textos mais compactos */
+.footer-text {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5; /* Era 1.8, as linhas estavam muito separadas */
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+/* Links institucionais mais próximos uns dos outros */
+.footer-links {
+    list-style: none !important; 
+    padding-left: 0 !important;
+    margin-bottom: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.3rem; /* Era 0.6rem, agora os links ficam mais juntinhos */
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff; 
+    font-weight: 500;
+    padding-left: 5px; 
+}
+
+/* --- ÍCONES DAS REDES SOCIAIS --- */
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+@media (max-width: 767px) {
+    .social-icons {
+        justify-content: center;
+        margin-top: 15px; /* Adiciona um respiro no celular */
+    }
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff; 
+    color: #1E3A8A !important;
+    border-radius: 50%; 
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #f8f9fa; 
+    transform: scale(1.1); 
+}
+
+/* --- BARRA INFERIOR MAIS FINA --- */
+.footer-bottom {
+    background-color: #0B1B42; 
+    padding: 10px 0; /* Era 18px, agora a barra preta também está mais fina */
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.85);
+}
