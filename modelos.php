@@ -42,7 +42,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 border-0 shadow-sm card-modelo">
                         <div class="card-img-container">
-                            <img src="img/aberta.jpeg" alt="Redes para Áreas Abertas">
+                            <img src="img/varanda.jpeg" alt="Redes para Áreas Abertas">
                         </div>
                         <div class="card-body text-center">
                             <div class="icon-box"><i class="bi bi-building text-primary fs-3"></i></div>
@@ -55,7 +55,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 border-0 shadow-sm card-modelo">
                         <div class="card-img-container">
-                            <img src="img/gatos.jpeg" alt="Redes para Gatos e Cães">
+                            <img src="img/pets.jpeg" alt="Redes para Gatos e Cães">
                         </div>
                         <div class="card-body text-center">
                             <div class="icon-box"><i class="bi bi-heart-fill text-primary fs-3"></i></div>
@@ -65,18 +65,6 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm card-modelo">
-                        <div class="card-img-container">
-                            <img src="img/piscina.jpeg" alt="Redes para Piscinas">
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-water text-primary fs-3"></i></div>
-                            <h5 class="card-title fw-bold">Piscinas</h5>
-                            <p class="card-text text-secondary small">Proteção essencial contra afogamentos de crianças e pets, suportando grande impacto de peso.</p>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 border-0 shadow-sm card-modelo">
@@ -90,20 +78,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm card-modelo">
-                        <div class="card-img-container">
-                            <img src="img/escada.jpeg" alt="Redes para Escadas">
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-house-check text-primary fs-3"></i></div>
-                            <h5 class="card-title fw-bold">Escadas e Mezaninos</h5>
-                            <p class="card-text text-secondary small">Fechamento de vãos internos para evitar quedas, mantendo o design limpo do ambiente interno.</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
             <div class="text-center mt-5 pt-4 border-top">

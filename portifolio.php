@@ -33,7 +33,6 @@ if ($resultado && $resultado->num_rows > 0) {
 
 <main class="flex-grow-1">
     <div class="container py-5 text-center">
-        <span class="badge bg-primary mb-2 px-3 py-2 rounded-pill shadow-sm">Nossos Trabalhos</span>
         <h1 class="text-primary fw-bold mb-3">Nosso Portfólio</h1>
         <p class="lead text-muted mb-4">Confira alguns dos nossos serviços de instalação de redes de proteção realizados com máxima segurança e qualidade.</p>
         
@@ -56,14 +55,14 @@ if ($resultado && $resultado->num_rows > 0) {
                     <img src="img/sacada.jpeg" class="card-img-top" alt="Instalação em Sacada" style="height: 250px; object-fit: cover;">
                     <div class="card-body text-center">
                         <h5 class="fw-bold text-dark mb-1">Sacada Residencial</h5>
-                        <p class="text-muted small mb-0">Proteção completa com rede preta 5x5.</p>
+                        <p class="text-muted small mb-0">Proteção completa com rede.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
-                    <img src="img/gatos.jpeg" class="card-img-top" alt="Instalação para Gatos" style="height: 250px; object-fit: cover;">
+                    <img src="img/pets.jpeg" class="card-img-top" alt="Instalação para Gatos" style="height: 250px; object-fit: cover;">
                     <div class="card-body text-center">
                         <h5 class="fw-bold text-dark mb-1">Proteção para Pets</h5>
                         <p class="text-muted small mb-0">Rede reforçada com malha menor para gatos.</p>
@@ -75,8 +74,8 @@ if ($resultado && $resultado->num_rows > 0) {
                 <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
                     <img src="img/aberta.jpeg" class="card-img-top" alt="Área Aberta" style="height: 250px; object-fit: cover;">
                     <div class="card-body text-center">
-                        <h5 class="fw-bold text-dark mb-1">Área de Lazer</h5>
-                        <p class="text-muted small mb-0">Fechamento de vão livre para segurança infantil.</p>
+                        <h5 class="fw-bold text-dark mb-1">Área de Aberta</h5>
+                        <p class="text-muted small mb-0">Fechamento de vão livre.</p>
                     </div>
                 </div>
             </div>

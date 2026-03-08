@@ -34,7 +34,7 @@
                         <i class="bi bi-geo-alt-fill fs-3 me-3 text-light opacity-75"></i>
                         <div>
                             <h6 class="fw-bold mb-1">Endereço</h6>
-                            <p class="small mb-0 opacity-75">Rua José Beira nº 254<br>Colombo, PR</p>
+                            <p class="small mb-0 opacity-75">Rua José Izidoro Biazetto, 691 - Curitiba-PR</p>
                         </div>
                     </div>
 
@@ -42,7 +42,7 @@
                         <i class="bi bi-whatsapp fs-3 me-3 text-light opacity-75"></i>
                         <div>
                             <h6 class="fw-bold mb-1">WhatsApp</h6>
-                            <p class="small mb-0 opacity-75">(41) 99999-9999</p>
+                            <p class="small mb-0 opacity-75">(41) 99869-6574 - Douglas</p>
                         </div>
                     </div>
 
@@ -98,7 +98,7 @@
                         <div class="mb-3">
                             <label class="form-label fw-bold text-dark">Mensagem Detalhada</label>
                             <textarea name="mensagem" id="mensagem" class="form-control bg-light border-0" rows="4" maxlength="1000" placeholder="Descreva as medidas aproximadas, se é para janela, sacada, etc." required></textarea>
-                            <div class="form-text text-end" id="contador">0 / 1000 caracteres</div>
+                            <div class="form-text text-end" id="contador"></div>
                         </div>
 
                         <div class="mb-4">

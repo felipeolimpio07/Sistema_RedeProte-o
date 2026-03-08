@@ -33,7 +33,7 @@
                     
                     <p class="text-secondary">
                         Nossas redes possuem tratamento anti-UV de alta tecnologia, suportando a exposição contínua ao sol 
-                        e às chuvas da nossa região. Isso garante uma durabilidade de até 5 anos sem perder a resistência original à tração.
+                        e às chuvas da nossa região. Isso garante uma durabilidade de até 3 anos sem perder a resistência original à tração.
                     </p>
 
                     <div class="row mt-4 mb-4">

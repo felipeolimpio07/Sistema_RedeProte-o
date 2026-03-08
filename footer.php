@@ -26,7 +26,7 @@
             <div class="col-lg-3 col-md-6 text-center text-md-start">
                 <h5 class="footer-heading">Endereço</h5>
                 <p class="footer-text">
-                    Rua José Izidoro Biazetto, 691 <br>
+                    Rua José Izidoro Biazetto, 691
                     Curitiba-PR
                 </p>
             </div>
